@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Poker Game</title>
+	<link rel="stylesheet" href="main.css" />
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="blackjack.js"></script>
+</head>
+<body>
+	<main>
+        <h1>Poker Game</h1>  
+        <h2>Select a Game</h2>
+        
+        <ul>
+            <li><a href="poker.html">5-card Stud</a></li>
+            <li><a href="blackjack.html">Blackjack</a></li>
+        </ul>
+        
+        <h2>Blackjack</h2>
+        
+        <ul>
+            <li><a href="#">Game Info</a></li>
+        </ul>
+        
+        <table>
+            <tr>
+                <td><img src="images/card_back.png" id = "card1" width = "100"></td>
+                <td><img src="images/card_back.png" id = "card2" width = "100"></td>
+                <td><img src="images/card_back.png" id = "card3" width = "100"></td>
+                <td><img src="images/card_back.png" id = "card4" width = "100"></td>
+                <td><img src="images/card_back.png" id = "card5" width = "100"></td>
+            </tr>
+        </table>
+        
+        <button type="button" id="dealBlackjack">Deal</button>
+        <button type="button" id="hit">Hit</button>
+        <button type="button" id="stand">Stand</button>
+        
+        <div id = "playerTotal"></div>
+        <div id = "dealerTotal"></div>
+	</main>	
+</body>
+</html>
